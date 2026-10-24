@@ -2,8 +2,8 @@
 
 A three-page Power BI dashboard for analyzing procurement spend, supplier performance, and logistics and delivery operations. The report brings key operational measures into one place to help users review costs, supplier quality and risk, and delivery reliability.
 
-> **Project type:** Power BI portfolio / PL-300 practice project  
-> **Tools:** Power BI Desktop, Power Query, DAX  
+> **Project type:** Power BI Supply chain project
+> **Tools:** Power BI Desktop, Power Query, DAX ,Data modeling
 > **Focus areas:** Procurement analytics, supplier performance, logistics analytics
 
 ## Dashboard Preview
@@ -14,7 +14,7 @@ A three-page Power BI dashboard for analyzing procurement spend, supplier perfor
 The overview brings together procurement spend, purchase-order status, supplier risk, and delayed-shipment analysis.
 
 ### Supplier & Procurement Performance
-![Supplier and Procurement Performance]
+![Supplier and Procurement Performance](https://github.com/Sambit-Dash-Phoenix/Logistics-Supply-chain-analytics/blob/main/LogisticsPerformance.png)
 
 Explore supplier pricing variance, supplier performance, monthly price variance, and supplier-level metrics.
 
