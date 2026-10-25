@@ -7,6 +7,8 @@ A Power BI dashboard for analyzing procurement spend, supplier performance, and 
 > **Focus areas:** Procurement analytics, supplier performance, logistics analytics
 
 ## Dashboard Preview
+### Dashboard Navigation / Landing Page
+![Dashboard Landing Page](https://github.com/Sambit-Dash-Phoenix/Logistics-Supply-chain-analytics/blob/main/Summary.png)
 
 ### Executive Overview
 ![Supply Chain Analytics Overview](https://github.com/Sambit-Dash-Phoenix/Logistics-Supply-chain-analytics/blob/main/Overview.png)
@@ -22,9 +24,6 @@ Explore supplier pricing variance, supplier performance, monthly price variance,
 ![Logistics and Delivery Performance](https://github.com/Sambit-Dash-Phoenix/Logistics-Supply-chain-analytics/blob/main/Logistics%20Performance.png)
 
 Review freight cost by transport mode, on-time delivery by region, transit time by carrier, carrier performance against SLA targets, and monthly delivery trends.
-
-### Dashboard Navigation / Landing Page
-![Dashboard Landing Page](images/Overview.png)
 
 ## Business Problem
 
@@ -73,8 +72,6 @@ The following values are visible in the supplied dashboard screenshots. They ref
 | Delayed shipments | 487 | Count of delayed shipments |
 | Delivery SLA gap | -0.27 | Difference between actual delivery performance and carrier SLA target, as displayed |
 
-**Note:** Spend and freight-cost values are shown in the units/format displayed by the dashboard. Confirm the currency and scale in the model before publishing if they are not already documented in the report.
-
 ## Business Questions This Dashboard Helps Explore
 
 - How does actual procurement spend compare with the monthly target?
@@ -95,12 +92,6 @@ The project brief describes a model with two fact tables at different levels of 
 - **Procurement actuals:** purchase-order-line grain.
 - **Targets:** product-category-by-month grain.
 - **Conformed dimensions:** Date and Category filter both fact tables to support valid actual-versus-target comparisons.
-
-The brief also highlights several modeling practices:
-
-- Keep monthly targets separate from purchase-order rows to avoid duplicating target values and inflating totals.
-- Use an inactive date relationship with `USERELATIONSHIP` when a measure needs to analyze delivery-date months rather than the default date relationship.
-- Choose visuals to answer business questions and reflect the data distribution.
 
 ## KPI Definitions
 
@@ -135,24 +126,6 @@ The brief also highlights several modeling practices:
 - **Data modeling** — fact-table grain, shared dimensions, and relationship design.
 - **Business analysis** — translating procurement and logistics questions into report metrics.
 
-## Repository Contents
-
-Suggested repository structure:
-
-```text
-supply-chain-analytics/
-├── README.md
-├── images/
-│   ├── Overview.png
-│   ├── Summary.png
-│   ├── Supplier Performance.png
-│   └── Logistics Performance.png
-└── PowerBI/
-    └── <your Power BI project files>
-```
-
-Add your `.pbip` project and its associated report/model folders under `PowerBI/` (or at the repository root). If you also share a `.pbix`, check GitHub's file-size limits and avoid committing sensitive or confidential data.
-
 ## Potential Future Improvements
 
 - Add drill-through pages for supplier and carrier investigations.
@@ -160,7 +133,3 @@ Add your `.pbip` project and its associated report/model folders under `PowerBI/
 - Include a documented data dictionary and refresh instructions.
 - Add a short section describing data quality checks and validation.
 - Document additional DAX measures and any assumptions used in the model.
-
-## Disclaimer
-
-This is a portfolio/practice analytics project. The displayed metrics are taken from the current dashboard screenshots and are not independently audited. Interpret the figures in the context of the dataset, filters, and business definitions used in the report.
