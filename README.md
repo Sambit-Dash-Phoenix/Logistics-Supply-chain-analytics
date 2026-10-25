@@ -19,7 +19,7 @@ The overview brings together procurement spend, purchase-order status, supplier 
 Explore supplier pricing variance, supplier performance, monthly price variance, and supplier-level metrics.
 
 ### Logistics & Delivery Performance
-![Logistics and Delivery Performance](
+![Logistics and Delivery Performance](https://github.com/Sambit-Dash-Phoenix/Logistics-Supply-chain-analytics/blob/main/Logistics%20Performance.png)
 
 Review freight cost by transport mode, on-time delivery by region, transit time by carrier, carrier performance against SLA targets, and monthly delivery trends.
 
