@@ -14,12 +14,12 @@ A Power BI dashboard for analyzing procurement spend, supplier performance, and 
 The overview brings together procurement spend, purchase-order status, supplier risk, and delayed-shipment analysis.
 
 ### Supplier & Procurement Performance
-![Supplier and Procurement Performance](https://github.com/Sambit-Dash-Phoenix/Logistics-Supply-chain-analytics/blob/main/Logistics%20Performance.png)
+![Supplier and Procurement Performance](https://github.com/Sambit-Dash-Phoenix/Logistics-Supply-chain-analytics/blob/main/Supplier%20Performance.png)
 
 Explore supplier pricing variance, supplier performance, monthly price variance, and supplier-level metrics.
 
 ### Logistics & Delivery Performance
-![Logistics and Delivery Performance](images/Logistics%20Performance.png)
+![Logistics and Delivery Performance](
 
 Review freight cost by transport mode, on-time delivery by region, transit time by carrier, carrier performance against SLA targets, and monthly delivery trends.
 
