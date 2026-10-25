@@ -2,9 +2,11 @@
 
 A Power BI dashboard for analyzing procurement spend, supplier performance, and logistics and delivery operations. The report brings key operational measures into one place to help users review costs, supplier quality and risk, and delivery reliability.
 
-> **Project type:** Power BI Supply chain project
-> **Tools:** Power BI Desktop, Power Query, DAX ,Data modeling
-> **Focus areas:** Procurement analytics, supplier performance, logistics analytics
+ **Project type:** Power BI Supply chain project
+ 
+ **Tools:** Power BI Desktop, Power Query, DAX ,Data modeling
+ 
+ **Focus areas:** Procurement analytics, supplier performance, logistics analytics
 
 ## Dashboard Preview
 ### Dashboard Navigation / Landing Page
